@@ -28,7 +28,6 @@ def recv(connection):
 
 thread1 = threading.Thread(target=recv, args=(conn, ))
 thread1.start()
-print('线程启动')
 
 while true:
     msg = input()
